@@ -36,21 +36,49 @@ header{
 
     background-color: cornflowerblue;
     text-align: end;
-    padding: 2%;
-    
+    padding: 1px;
     
 }
+    /*menu principal*/
 
-  a:visited {
-    
-    color:rgb(212, 250, 255);
-    
-    
-  }
+    .navbar ul{
+        list-style-type: none;  /* con url se le puede agregar icono*/
+
+        }
+        .navbar ul li{
+         /*float: left;*/
+display: inline-block;
+        }
+        .navbar ul li a{
+           
+            color: azure;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            
+
+           }
+/*seudo clases*/
+          .navbar ul li a:hover{
+
+            text-decoration: underline;
+            background-color: rgb(17, 236, 182);
+            padding: 15px;
+          }
+
+          .navbar ul li a:active{  /*clic activo , sirve para celulares*/
+
+            background-color: cornsilk;
+
+          }
+
+          .active{
+              background-color: rgb(26, 221, 163);
+          }
 
 .principal{
 
-    box-sizing: border-box;
+    
     width: 80%;
     padding: 2%;
     background-color: darkgrey;
