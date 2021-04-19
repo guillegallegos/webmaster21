@@ -72,19 +72,19 @@
 
     <h2>Contacto</h2>
 
-    <form action="mailto:guillegallegos@gmail.com" method="POST" id="formcontacto" target="new">
+    <form action="mailto:guillegallegos@gmail.com" method="POST" id="formContacto" target="new">
       
       <div> 
           <label> 
               <span>Nombre</span>
-     <input type="text" name="nombre">
+     <input type="text" name="nombre" placeholder="escriba su nombre" required>
     </label>
 </div>
 
      <div>
           <label> 
               <span>Email</span>
-     <input type="email" name="email">
+     <input type="email" name="email" placeholder="escriba su email" required>
     </label>
     </div>
 
@@ -105,6 +105,7 @@
     <div>
 
         <span>Genero</span>
+        <br>
         <p>
         <input type="radio" name="Genero" value="Femenino"> Femenino
         <br>
@@ -128,8 +129,8 @@
         <span>Acepto los terminos y condiciones del sitio para contenidos .</span>
     </div>
 
-    <input type="submit" value="Enviar">
     
+    <button type="submit">Enviar</button>
 
     </form>
 
