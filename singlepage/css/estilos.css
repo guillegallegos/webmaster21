@@ -11,19 +11,26 @@ html{
 
 #header{
 
-    background-color: rgb(255, 255, 255);
+    background-color: #000000c9;
     position: sticky;
     top: 0px;
+    
+    
 }
 
 .logo{
-    padding: 3px;
+    padding-top: 2px;
     text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
 }
 #principal{
 
     float: center;
     text-align: center;
+    padding: 5px;
+    
 }
 #principal #nav-list{
 
@@ -40,6 +47,7 @@ html{
     text-decoration: none;
     padding: 5px;
     display: block;
+    border-radius: 5px;
 }
 
 #nav-list li a:hover{
@@ -51,20 +59,53 @@ html{
 
 #secc-1{
 
-background: rgba(222, 184, 135, 0.363);
+background-image: url(https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/internet-programmiersprachen-t.jpg);
+background-color: #c40193;
+
+
+
 }
+
+
+.text1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10%;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+    
+    
+}
+
+
 
 #secc-2{
 
     background: rgba(222, 184, 135, 0.342);
+    padding: 10px;
+    text-align: center;
 }
 
 #secc-3{
 
     background-color: rgba(222, 184, 135, 0.39);
+    
+    
+
+    
 }
 
+    .caja-audio{
+        float: left;
+        padding-left: 20%;
+        
+        
+    }
+
+
 #secc-4{
+    
 
     background: rgba(222, 184, 135, 0.329);
 }
@@ -72,7 +113,8 @@ background: rgba(222, 184, 135, 0.363);
 #secc-1,#secc-2,#secc-3,#secc-4{
 
     padding-top: 50px;
-    height: 100vh;
+    height: 70vh;
+    
 }
 .footer{
 
