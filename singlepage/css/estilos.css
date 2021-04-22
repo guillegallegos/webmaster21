@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#header{
+
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    padding: 3px;
+    text-align: center;
+}
+#principal{
+
+    float: center;
+    text-align: center;
+}
+#principal #nav-list{
+
+    list-style-type: none;
+}
+
+#nav-list li{
+    display: inline-block;
+}
+#nav-list li a{
+
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+#nav-list li a:hover{
+
+    background-color: darkgrey;
+    color: darkorange;
+    box-sizing: border-box;
+}
+
+#secc-1{
+
+background: rgba(222, 184, 135, 0.363);
+}
+
+#secc-2{
+
+    background: rgba(222, 184, 135, 0.342);
+}
+
+#secc-3{
+
+    background-color: rgba(222, 184, 135, 0.39);
+}
+
+#secc-4{
+
+    background: rgba(222, 184, 135, 0.329);
+}
+
+#secc-1,#secc-2,#secc-3,#secc-4{
+
+    padding-top: 50px;
+    height: 100vh;
+}
+.footer{
+
+    background-color: chocolate;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
