@@ -13,7 +13,7 @@ html{
 
 #header{
 
-    background-color: #000000c9;
+    background-color: #fffefe;
     position: sticky;
     top: 0px;
     
@@ -23,8 +23,7 @@ html{
 .logo{
     padding-top: 2px;
     text-align: center;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
+    
     
 }
 #principal{
@@ -44,7 +43,7 @@ html{
 }
 #nav-list li a{
 
-    background-color: chocolate;
+    background-color: rgb(250, 124, 34);
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px;
@@ -61,8 +60,10 @@ html{
 
 #secc-1{
 
-background-image: url(https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/internet-programmiersprachen-t.jpg);
+background-image: url(../img/FONDO-1.jpg);
 background-color: #c40193;
+background-repeat: no-repeat;
+padding: 5%;
 
 
 
@@ -74,10 +75,21 @@ background-color: #c40193;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     color: white; text-shadow: black 0.1em 0.1em 0.2em
     
     
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0); text-shadow: rgb(245, 245, 245) 0.1em 0.1em 0.2em
+}
+
+.center{
+
+text-align: center;
 }
 
 
@@ -85,7 +97,7 @@ background-color: #c40193;
 #secc-2{
 
     background: rgba(90, 90, 90, 0.521);
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     font-size: 15px;
     color: white;
@@ -98,8 +110,7 @@ background-color: #c40193;
 
 #secc-3{
 
-    background: rgba(10, 8, 8, 0.521);
-    padding: 20%;
+    background: rgb(250, 142, 0);
     text-align: center;
     font-size: 15px;
     color: white;
@@ -108,58 +119,22 @@ background-color: #c40193;
     
 }
 
-.imagencentro{
+#secc-3 ul li{
 
+    display: inline-block;
+    font-size: 21px;
+    
+
+}
+
+.importante{
+
+    background-color: crimson;
     width: 100%;
-    border-radius: 3%;
+    padding: 8px;
 }
 
-/*.caja-texto{
 
-    margin-right: 10%;
-    width: auto;
-}
-
-  #secc-3 h2{
-
-    padding: 1%;
-    font-size: 20px;
-    color: blanchedalmond;
-    float: right;
-    width: 40%;
-    margin: 8px 15px;
-    text-align: center;
-    background-color: blueviolet;
-    
-    
-    border-radius: 10px;
-    
-    
-    
-    
-    
-  }
- 
-
- 
-
-  .imagencentro{
-
-    border-radius: 10px;
-    float: right;
-    width: 40%;
-    margin: 5px 10px;
-    
-    
-   
-    
-    
-    
- 
-    
-  }
-
-*/
 
 #secc-4{
     
@@ -178,17 +153,12 @@ background-color: #c40193;
 #secc-1,#secc-2,#secc-3,#secc-4{
 
     padding-top: 50px;
-    height: 70vh;
+    height: 100%;
     
 }
 
-.marcas{
-
-    text-align: center;
-    background: black;
-    padding-top: 3%;
     
-}
+
 .footer{
 
     background-color: chocolate;
