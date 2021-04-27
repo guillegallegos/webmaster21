@@ -5,19 +5,17 @@ body{
     
     background-image: url(../img/space-bg.jpg);
     background-size: cover;
-    height: 60vw;
+    background-repeat: no-repeat;
+    height: 65vmax;
+   
+    
     
     
     
     
 }
 
-#espacio{
 
-    position:relative;
-    
-    
-}
 
 
 .img100{
@@ -35,17 +33,20 @@ body{
     width: 12%;
     top: 8%;
     left: 40%;
-    z-index: 2;
+    z-index: 20;
 
 }
+
+
 .tierra2{
     
     position: absolute;
     width: 40%;
     top: 5%;
     left: 43%;
-    
+    z-index: 3;
 }
+
 
 .tierra{
     
@@ -53,6 +54,7 @@ body{
     width: 60%;
     top: 5%;
     left: -20%;
+    z-index: 4;
     
     
 }
@@ -60,10 +62,20 @@ body{
 
     position: absolute;
     width: 20%;
-    top: 10%;
-    left: 50%;
+    top: 40%;
+    left: 32%;
     z-index: 5;
     
     
     
+    
+    
+}
+
+.meteoro{
+
+    position: absolute;
+    width: 12%;
+    left: 72%;
+    top: 70%;
 }
