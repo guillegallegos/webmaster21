@@ -12,17 +12,21 @@
     
 }
 
+
+
 body{
 
 
     width: 100%;
-    background-color:#a8c6fa;
+    background:#a8c6fa;
+    
     
 }
 
 .header{
-    padding: 5%;
-    
+    position: sticky;
+    top: 0%;
+    padding: 3%;
     background-color: #a8c6fa;
     margin-top: -4%;
 }
@@ -118,6 +122,8 @@ body{
     padding-right: 50px;
     border-radius: 3%;
 }
+
+
 
 .boton2{
     background-color: rgb(68, 68, 68);
