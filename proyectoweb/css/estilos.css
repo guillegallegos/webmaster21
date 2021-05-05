@@ -29,13 +29,16 @@ body{
     padding: 3%;
     background-color: #a8c6fa;
     margin-top: -4%;
+    
 }
 
 .logo{
     float: left;
     margin-left: 3%;
     
+    
 }
+
 
 .nav{
 
@@ -121,6 +124,19 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
+    
+    
+
+    
+
+}
+
+.boton:hover{
+
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    
 }
 
 
@@ -138,8 +154,19 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
+    
 
+    
 }
+
+    .boton2:hover{
+
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(48, 48, 48);
+    }
+
+
 .clear{
 
     clear: both;
@@ -153,12 +180,24 @@ body{
     height: 20vmax;
     
     
+    
 
 }
 
 .img-plataformas{
 
     width: 100px;
+    transition-property: all;
+    transition-duration: 3s;
+    
+    
+    
+}
+
+.img-plataformas:hover{
+
+    transform: rotate(2turn);
+
 }
 
 .detalle{
