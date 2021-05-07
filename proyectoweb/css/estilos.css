@@ -93,6 +93,8 @@ body{
     margin-top: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10%;
+    
+    
 }
 
 .principal h2{
@@ -112,20 +114,18 @@ body{
     float: right;
     margin-right: 10%;
     margin-top: 5%;
-    transition-property: all;
     
-    
-    
+  
     
 }
 
 .principal-imagen:hover{
 
-    
-transform: rotateY(0.5turn) ;
-
-
+    filter: grayscale(1);
+    transform: scale(1.01,1.01);
 }
+
+
 
 
 
@@ -143,7 +143,8 @@ transform: rotateY(0.5turn) ;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
-    transition-property: none;
+    transition-property: color;
+    transition-duration: 2s;
     
     
 
@@ -174,7 +175,8 @@ transform: rotateY(0.5turn) ;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
-    transition-property: none;
+    transition-property: color;
+    transition-duration: 1s;
 
     
 }
@@ -329,6 +331,13 @@ transform: rotateY(0.5turn) ;
     font-size: 33px;
 }
 
+.textos h3{
+    border-top: solid gray 1px;
+    margin-top: 10%;
+    padding: 2%;
+    color: rgb(48, 48, 48);
+    font-size: 15px;
+}
 #formulario{
 
     float: left;
@@ -363,7 +372,8 @@ transform: rotateY(0.5turn) ;
 
     background: lightblue;
     width: 50%;
-    border:none 
+    
+    padding: 10px;
 }
 
 .footer{
@@ -403,10 +413,15 @@ transform: rotateY(0.5turn) ;
    text-decoration-line: none;
    text-decoration: none;
    color: white;
-
+   transition-duration: 1s;
     
     
 
+}
+
+.descarga:hover{
+
+    background: grey;
 }
 
 .links{
@@ -415,9 +430,11 @@ transform: rotateY(0.5turn) ;
    text-decoration-line: none;
    text-decoration: none;
    color: white;
-   font-family: 'ARIAL;
+   
 
 }
+
+
 
 
 .pie{
