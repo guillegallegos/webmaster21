@@ -30,14 +30,20 @@ body{
     background-color: #a8c6fa;
     margin-top: -4%;
     
+    
 }
 
 .logo{
     float: left;
-    margin-left: 3%;
+    margin-left: 5%;
+    transition-duration: 3s;
+    
+   
     
     
 }
+
+
 
 
 .nav{
@@ -106,6 +112,19 @@ body{
     float: right;
     margin-right: 10%;
     margin-top: 5%;
+    transition-property: all;
+    
+    
+    
+    
+}
+
+.principal-imagen:hover{
+
+    
+transform: rotateY(0.5turn) ;
+
+
 }
 
 
@@ -124,6 +143,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
+    transition-property: none;
     
     
 
@@ -154,7 +174,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 3%;
-    
+    transition-property: none;
 
     
 }
@@ -238,6 +258,14 @@ body{
     float: left;
     margin-right: 1%;
     
+    transition-duration: 1s;
+    
+}
+
+.imagen-funciones:hover{
+
+    transform: scale(1.05,1.05);
+
 }
 
 
@@ -287,15 +315,114 @@ body{
 
     float: left;
     color: white;
-    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.textos h2{
+
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
 }
 
 #formulario{
 
     float: left;
     margin-top: 5%;
+
     
     
 
 }
 
+#formulario input{
+
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+#formulario button{
+
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    clear: both;
+    margin-bottom: 2%;
+}
+
+#formulario button:hover{
+
+    background: lightblue;
+    width: 50%;
+    border:none 
+}
+
+.footer{
+
+    border-top: gray solid 1px;
+    padding: 2%;
+    position: relative;
+    border-bottom: gray solid 1px;
+    
+    
+    
+}
+
+.footer h2{
+
+    font-size: 21px;
+    color: rgb(43, 43, 43);
+    margin-left: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+
+
+.descarga{
+
+   
+    position: absolute;
+    left: 61%;
+    top: 18%;
+   background-color: orangered;
+   padding: 1.5%;
+   width: 13%;
+   border-radius: 5%;
+   text-align: center;
+   text-decoration-line: none;
+   text-decoration: none;
+   color: white;
+
+    
+    
+
+}
+
+.links{
+
+    text-align: center;
+   text-decoration-line: none;
+   text-decoration: none;
+   color: white;
+   font-family: 'ARIAL;
+
+}
+
+
+.pie{
+
+    padding: 2%;
+    margin-left: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
