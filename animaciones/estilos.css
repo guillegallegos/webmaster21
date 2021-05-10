@@ -1,0 +1,136 @@
+
+.caja {
+	width:70%;
+	height:500px;
+	border:1px solid #333;
+	margin:0 auto;
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.61);
+}
+.logo{
+	text-align: left;
+	width: 100px;
+}
+.logo img{
+	width: 100%;
+}
+
+
+
+@keyframes anim-Opacidad1{
+   
+	from{
+		 opacity: 0.2;
+         color: white;
+		 transform: translateY(-200px);
+
+	}
+
+	to{
+		opacity: 1;
+        color: tomato;
+		transform: translateY(0px);
+
+	}
+
+}
+
+h1{
+
+	animation-name: anim-Opacidad1;
+	animation-duration: 3s;
+}
+
+
+@keyframes anim-bola1{
+
+	0%{
+      transform:  rotate(2turn);
+	  
+
+	}
+
+	100%{
+transform: rotate(4turn);
+
+
+
+	}
+}
+
+.logo{
+
+	animation-name: anim-bola1;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+}
+
+.logo:hover{
+
+	animation-play-state: paused;
+}
+
+body{
+
+	background-image: url(https://www.telepeajeplus.com/Login/assets/css/images/bg.jpg);
+	background: cover;
+	animation-iteration-count: infinite;
+	animation-name: anim-fondo1;
+	animation-duration: 60s;
+	animation-direction: alternate;
+
+	
+}
+
+@keyframes anim-fondo1{
+
+	0%{
+
+		background-position: left;
+	}
+
+	100%{
+
+		background-position: right;
+	}
+}
+
+.tipito{
+
+	width: 184px;
+	height: 320px;
+	animation-name: anim-fondo1;
+	animation-duration: 5s;
+	animation-timing-function: steps(7);
+	animation-iteration-count: infinite;
+	background-image: url("../animaciones/img/capguy-walk.png");
+}
+
+
+@keyframes anim-cuerpo{
+
+	0%{
+		background-position: 0%;
+
+	}
+
+	100%{
+     
+		background-position: 98%;
+
+	}
+}
+
+.cuerpo{
+
+	
+	animation-name: anim-cuerpo;
+	animation-timing-function: linear;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+
+}
