@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box
     
     
     
@@ -240,52 +241,25 @@ body{
 }
 
 #funciones{
-
-    
-    margin-top: 2%;
-    text-align: center;
-    margin-left: 10%;
+    width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
+
+#funciones img{width: 100%}
 
 .principal2{
 
-    float: left;
-    color: white;
-    font-size: 25px;
-    margin-left: 1%;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: khaki;
-    border-radius: 5%;
-    height: 350px;
-    
-}
-
-.principal2:hover{
-
-    transform: scale(1.05,1.05);
-}
-
-.principal2 p{
-
-    font-size: 15px;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 33%;
+    padding: 2%;
 }
 
 .imagen-funciones{
 
-    float: left;
-    margin-right: 1%;
-    
-    transition-duration: 1s;
-    
-}
-
-.imagen-funciones:hover{
-
-    transform: scale(1.05,1.05);
-
+    width: 53%;
+    padding: 2%;
 }
 
 

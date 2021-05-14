@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: "arial";
+	font-size: 16px;
+}	
+
+.header{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	padding: 2%;
+	background-color: rgb(71, 71, 71);
+
+}
+
+.logo img{
+
+	width: 30%;
+}
+
+.nav a{
+
+	color: rgb(255, 255, 255);
+	font-size: 28 px;
+	
+	
+	text-decoration: none;
+
+}
+
+#contenedorprincipal{
+
+	display: flex;
+	flex-direction: row;
+	
+	flex-wrap: wrap;
+	overflow: hidden;
+	
+
+}
+
+.principal{
+
+	box-sizing: border-box;
+	width: 30%;
+	overflow: hidden;
+}
+
+.principal-imagen{
+
+	box-sizing: border-box;
+	width: 30%;
+	margin-left: 90%;
+	
+}
