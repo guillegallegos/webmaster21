@@ -20,20 +20,26 @@
 
     width: 100%;
     
+    
+    
+}
+
+#centro{
+
+    padding: 20px;
 }
 
 .imagen{
 
-    width: 100%;
-    text-align: center;
+    width: 100%;    
     padding: 2%;
 }
 h1{
 
-    text-align: center;
+    text-align: left;
 }
 p{
-    text-align: center;
+    text-align: left;
     font-size: 15px;
 }
 
