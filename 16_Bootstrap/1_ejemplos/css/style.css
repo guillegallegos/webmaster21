@@ -19,7 +19,8 @@
 .img-header{
 
     width: 100%;
-    
+    padding: 0;
+     
     
     
 }
@@ -29,11 +30,11 @@
     padding: 20px;
 }
 
-.imagen{
+/*.imagen{
 
     width: 100%;    
     padding: 2%;
-}
+}*/
 h1{
 
     text-align: left;
