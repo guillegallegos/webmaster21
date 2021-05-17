@@ -30,11 +30,12 @@
     padding: 20px;
 }
 
-/*.imagen{
+.imagen{
 
-    width: 100%;    
-    padding: 2%;
-}*/
+    width: 100%; 
+    padding: 2px;   
+    
+}
 h1{
 
     text-align: left;
