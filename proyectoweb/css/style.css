@@ -1,10 +1,29 @@
 *{margin: 0;padding:0;}
 
 header{
-    padding-bottom: 2%;
+    padding-bottom: 0.5%;
+    background-color: white;
+    z-index: 1;
     
 }
 
+body{
+    background-color: cornflowerblue;
+}
+
+.plataformas{
+    background-color: white;
+}
+
+.principal{
+    color: white;
+    
+}
+
+.textos{
+
+    color: white;
+}
 .bg1{background: #08a6f0 }
 .bg2{background: #27ae60}
 .bg3{background: #2980b9}
@@ -15,7 +34,7 @@ header{
 .bg8{background: #34495e}
 .bg9{background: #f1c40f}
 .bg10{background: #f39c12}
-.bg11{background:white}
+.bg11{background:rgb(221, 221, 221)}
 
 .sinPadding{
     padding:0;

@@ -33,13 +33,13 @@
 .imagen{
 
     width: 100%; 
-    padding: 2px;   
+    
     
 }
-h1{
+/*h1{
 
     text-align: left;
-}
+}*/
 p{
     text-align: left;
     font-size: 15px;
