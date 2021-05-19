@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radio demo bootstrap</title>
     <!-- CSS only -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
     <header class="container-fluid position-sticky top-0 shadow animate__animated animate__slideInDown animate__delay-1s">
         <div class="container">
             <div class="row">
-           
-            <div class="menu">
+              <div class="col">
+                <a href="" class="btn mt-2">
+                  <img src="../proyectoweb/img/radiiopngok.png" width="25%" alt="logo">
+                </a>
+            </div>
+            <div class="col">
                 <nav class="navbar navbar-expand-sm navbar-light">
                     <div class="container-fluid">
                         <!-- Navbar Brand -> marca o logo -->
-              <a class="navbar-brand"  href="#"><img src="../proyectoweb/img/radiiopngok.png" width="20%" alt=""></a>
+              <!-- <a class="navbar-brand"  href="#"><img src="../proyectoweb/img/radiiopngok.png" width="20%" alt=""></a>-->
                       
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <!-- btn responsive -->
@@ -48,7 +58,7 @@
                                 </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link btn btn-danger btn-sm" href="/proyectoweb/panel.html">CLIENTES</a>
+                            <a class="nav-link btn btn-danger btn-sm" href="/webmaster21/proyectoweb/panel.html">CLIENTES</a>
                           </li>
                           <!-- <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -69,24 +79,24 @@
 <div class="principal container">
     <div class="row">
         <div class="col text-center mt-5">
-            <h1 class="p-2">Llega a mas oyentes con el nuevo sistema  Radiio</h1>
-            <h4 class="p-2">Probar Radiio es tan simple como hacer clic en los botones aqui abajo y descargar sin depender de las tiendas.</h4>
+            <h1 class="titulo p-2 ">Llega a mas oyentes con el nuevo sistema  Radiio</h1>
+            <h4 class="p-2">Con Radiio Multiapp ahora todo es mas simple, su emisora en todos los dispositivos </h4>
             <div class="btn-group my-5">
                 <a href="https://radiio.com.ar/app/de18c18cc236f3d5" class="btn btn-secondary " aria-current="page">DESCARGAR</a>
                 <a href="https://radiio.com.ar/app/de18c18cc236f3d5?app-multi=preview" class="btn btn-primary">PROBAR DEMO</a>
                 
               </div>
         </div>
-        <div class="col text-center">
-            <img src="../proyectoweb/img/celularradiio.png" alt="">
-        </div>
+        <div class="col text-center m-0 " >
+                 <img src="../proyectoweb/img/celularradiio.png" alt="">
+            </div>
     </div>
 </div>
-<div class="plataformas container-fluid ">
+<div class="plataformas container-fluid " >
 <div class="container my-2 animate__animated animate__shakeX">
     
     <div class="row">
-        <div class="col-4  text-center p-2">
+        <div class="col-4  text-center p-2" >
             <figure >
                 <img src="../proyectoweb/img/icono-android.png"  width="40%" alt="">
             </figure>
@@ -110,13 +120,13 @@
     </div>
 </div>
 </div>
-<section id="panel">
+<section id="panel" data-aos="flip-up" data-aos-delay="800">
 <div class="container-fluid">
     <div class="container textos mt-5 p-2">
     <div class="row">
         <div class="col">
             <h2 class="text-center">Incluye un potente panel de Administracion</h2>
-            <h5 class="mt-3 p-3">Controlar el diseño de Radiio , es posible gracias a su panel admin , el cual permite al usuario editar
+            <h5 class="mt-3 p-3 lead">Controlar el diseño de Radiio , es posible gracias a su panel admin , el cual permite al usuario editar
                 la parte grafica , logo , fondo y colores .Además cargar redes sociales , web, whatsapp ,
                 email , programacion , historia y canal de video
         </h5>
@@ -130,13 +140,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active ">
-                    <img  src="../proyectoweb/img/parte1panel.PNG" class="rounded-3 d-block w-100" alt="...">
+                    <img data-fancybox="gallery" src="../proyectoweb/img/parte1panel.PNG" class="rounded-3 d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="../proyectoweb/img/panelk2radio.PNG.png" class="rounded-3 d-block w-100" alt="...">
+                    <img data-fancybox="gallery" src="../proyectoweb/img/panelk2radio.PNG.png" class="rounded-3 d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="../proyectoweb/img/paneradio3.PNG.png" class="rounded-3 d-block w-100" alt="...">
+                    <img data-fancybox="gallery" src="../proyectoweb/img/paneradio3.PNG.png" class="rounded-3 d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -196,6 +206,14 @@
     
       <!-- JavaScript Bundle with Popper-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
