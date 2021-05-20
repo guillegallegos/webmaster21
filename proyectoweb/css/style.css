@@ -14,6 +14,11 @@ header{
     font-weight: 600;
 }
 
+.h2{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
 body{
     background-color: cornflowerblue;
     
@@ -43,7 +48,7 @@ body{
 .bg8{background: #34495e}
 .bg9{background: #f1c40f}
 .bg10{background: #f39c12}
-.bg11{background:rgb(221, 221, 221)}
+.bg11{background:rgb(255, 255, 255)}
 
 .sinPadding{
     padding:0;
