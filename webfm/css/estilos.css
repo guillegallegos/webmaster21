@@ -1,7 +1,10 @@
 *{margin: 0;padding:0;}
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .textob{
     color: white;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .bg1{background: #ff057a }
