@@ -53,8 +53,8 @@
                               Caracteristicas
                             </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#panel">Panel Admin</a></li>
                                 <li><a class="dropdown-item" href="#funciones">Funciones</a></li>
+                                <li><a class="dropdown-item" href="#faq">Faq</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#"></a></li>
                                 </ul>
@@ -212,10 +212,10 @@
 <div id="formulario" class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col mt-4 textos d-none d-lg-block">
-        <h2 class="p-2 ">Solicita tu Radiio</h2>
-        <h4 class="p-2 ">Solicita aquí tu Radiio , completando los datos solicitados con la información de tu emisora ,
-           una vez completado recibirás vía email el boleta de pago junto al acceso para diseñar tu Multiapp .</h4>
+      <div class="col mt-4  d-none d-lg-block">
+        <h2 class="p-2 textos ">Solicita tu Radiio</h2>
+        <h5 class="p-2 lead principal">Solicita aquí tu Radiio , completando los datos solicitados con la información de tu emisora ,
+           una vez completado recibirás vía email el boleta de pago junto al acceso para diseñar tu Multiapp .</h5>
       </div>
       <div class="col mt-4">
         <form action="mailto:guillegallegos@gmail.com" method="POST" id="formContacto" target="new">
@@ -252,7 +252,7 @@
   </div>
 </div>
 
-<div class="container mt-2">
+<div id="faq" class="container mt-2">
   <div class="row">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
@@ -274,10 +274,57 @@
     </div>
   </div>
 </div>
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col mb-4">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Que necesito para tener Radiio ?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>Para poder usar multiapp Radiio necesitas</strong> luego de contratar el servicio ,  tener una radio online , fm o am , contar con un servicio de streaming audio ,que puede ser Shoutcast o Icecast que debe contener <code>certificado SSL (https)</code>.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Cuanto demora la activacion?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>Radiio se activa </strong> dependiendo de el proveedor al cual contrato  en no mas de 24 hs de recibido el pago <code>estara funcionando</code>.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Como se instala la app de Radiio?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>Radiio se instala en tu dispositivo preferido</strong> de manera automatica , y sin depender de tiendas ,una vez generado el Multiapp , le dara los link para insertar directamente en su pagina web<code> y sus oyentes los descargaran de manera segura </code>sin esperas,  sin ocupar espacio ya que se instalara en el escritorio de su dispostivo.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container-fluid bg8 text-center">
     <div class="row">
     <div class="pie bg8 p-2 textos">
         <p>&copy; Todos los Derechos Reservados - Radiio.com.ar</p>
+        
     </div>
 </div>
 </div>
