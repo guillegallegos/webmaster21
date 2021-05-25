@@ -237,26 +237,26 @@
         <form action="" method="POST"  id="formContacto" target="new" netlify>
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+              <label><input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required></label>
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+            <label> <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required></label>
             </div>
           </div>
           <div class="row mt-2">
+           <div class="col">
+            <label><input type="text" class="form-control" placeholder="Email" aria-label="Email" required>
+            </label></div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Email" aria-label="Email" required>
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre de la emisora" aria-label="Nombre de la emisora" required>
-            </div>
+            <label>  <input type="text" class="form-control" placeholder="Nombre de la emisora" aria-label="Nombre de la emisora" required>
+            </label></div>
             <div class="row-no">
               <div class="col mt-2">
-                <input type="text" class="form-control" placeholder="Url logo de la  emisora" aria-label="Url logo de la  emisora" required>
-              </div>
+              <label> <input type="file" class="form-control" placeholder="logo de la  emisora PNG" aria-label="logo de la  emisora PNG" required>
+              </label></div>
               <div class="col mt-2">
-                <input type="text" class="form-control" placeholder="IP PUERTO de la emisora" aria-label="IP PUERTO de la emisora" required>
-              </div>
+              <label> <input type="text" class="form-control" placeholder="IP PUERTO de la emisora" aria-label="IP PUERTO de la emisora" required>
+              </label></div>
             </div>
             <div class="col p-4">
               <button type="submit" class="btn btn-primary">Enviar</button>
