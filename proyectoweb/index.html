@@ -233,14 +233,14 @@
         <h5 class="p-2 lead principal">Solicita aquí tu Radiio , completando los datos solicitados con la información de tu emisora ,
            una vez completado recibirás vía email el boleta de pago junto al acceso para diseñar tu Multiapp .</h5>
       </div>
-      <form class="row g-3">
-        <div class="col-md-6" name="formulario Radiio" method="POST" data-netlify="true" >
+      <form name="formulario Radiio" method="POST" data-netlify="true" class="row g-3">
+        <div class="col-md-6" >
           <label for="inputEmail4" class="form-label">Email</label>
           <input type="email" class="form-control" id="inputEmail4">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Nombre y Apellido</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <label for="nombreyapellido" class="form-label">Nombre y Apellido</label>
+          <input type="texto" class="form-control" id="nombreyapellido">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Nombre Radio</label>
@@ -248,7 +248,7 @@
         </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Logo Radio PNG</label>
-          <input type="file" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          <input type="file" class="form-control" id="inputAddress2" placeholder="png">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">IP o Url</label>
